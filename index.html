@@ -8,9 +8,10 @@
 </head>
 <body>
     <header>
+        <div id="background"></div>
         <h1>Welcome to Acme Web Solutions</h1>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci eum error earum soluta voluptatum nisi laboriosam eos saepe asperiores dolorum.</p>
-        <a href="#section-b">Read More</a>
+        <a href="#section-b" class="button">Read More</a>
     </header>
     <main>
         <section id="section-a">
@@ -18,21 +19,23 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe sint eligendi possimus? Unde officiis magnam laborum ipsa distinctio odio, vero dolores dicta aliquam aperiam repellendus. Perferendis officiis deserunt velit voluptas nobis sequi animi totam, accusantium, ex eius quia, natus quo?</p>
         </section>
         <section id="section-b">
-            <article class="block">
-                <img src="images/photo1.jpeg" alt="laptop"/>
-                <h3>Web Development</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa neque quo eum et quasi velit voluptatum cum maiores exercitationem.</p>
-            </article>
-            <article class="block">
-                <img src="images/photo2.jpeg" alt="phone"/>
-                <h3>Mobile Applications</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa neque quo eum et quasi velit voluptatum cum maiores exercitationem.</p>
-            </article>
-            <article class="block">
-                <img src="images/photo3.jpeg" alt="tablet"/>
-                <h3>Tech Marketing</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa neque quo eum et quasi velit voluptatum cum maiores exercitationem.</p>
-            </article>
+            <div id="block-wrapper">
+                <article class="block">
+                    <img src="images/photo1.jpeg" alt="laptop"/>
+                    <h3>Web Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa neque quo eum et quasi velit voluptatum cum maiores exercitationem.</p>
+                </article>
+                <article class="block">
+                    <img src="images/photo2.jpeg" alt="phone"/>
+                    <h3>Mobile Applications</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa neque quo eum et quasi velit voluptatum cum maiores exercitationem.</p>
+                </article>
+                <article class="block">
+                    <img src="images/photo3.jpeg" alt="tablet"/>
+                    <h3>Tech Marketing</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa neque quo eum et quasi velit voluptatum cum maiores exercitationem.</p>
+                </article>
+            </div>
         </section>
         <section id="section-c">
             <h2>We handle all of your digital needs</h2>
@@ -40,19 +43,17 @@
         </section>
     </main>
     <section id="section-d">
-        <article>
+        <article id="left">
             <h2>Contact Us</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, suscipit. Rerum ducimus a quod, ut et voluptas obcaecati unde fuga.</p>
-            <p>contact@acmewebsolutions.test</p>
-        </article>
-        <article>
+            <p id="email">contact@acmewebsolutions.test</p>
+        </article><article id="right">
             <h2>About Our Company</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio earum porro deserunt, deleniti, quae facere repudiandae, officiis est exercitationem nobis iusto doloremque! Soluta excepturi in aut suscipit amet temporibus quo?</p>
         </article>
     </section>
     <footer>
-        <p>Acme Web Solutions</p>
-        <p>Project By <a href="https://traversymedia.com" target="blank">Traversy Media</a></p>
+        <p>Acme Web Solutions</p><p>Project By <a href="https://traversymedia.com" target="blank">Traversy Media</a></p>
     </footer>
 </body>
 </html>
